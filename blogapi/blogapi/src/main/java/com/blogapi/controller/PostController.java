@@ -19,7 +19,7 @@ public class PostController {
    // @Autowired
     private PostService postService;
 
-    public PostController(PostService postService) {//we can you @autowired or we can generate construtor based dependency injection
+    public PostController(PostService postService) {//we can use @autowired or we can generate construtor based dependency injection
         this.postService = postService;
     }
 
